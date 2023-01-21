@@ -17,16 +17,20 @@ export default function About() {
         <div className="flex flex-row justify-center font-semibold text-lg lg:font-bold lg:text-2xl w-full pt-4 pb-6 space-x-4">
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://github.com/Brianmulinge"
             className="flex"
           >
             Github
           </a>
-          <a target="_blank" href="" className="flex">
+          <a target="_blank"
+          rel="noreferrer"
+          href="" className="flex">
             LinkedIn
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://twitter.com/brianmulinge_"
             className="flex"
           >

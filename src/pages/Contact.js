@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="flex flex-col rounded-lg border h-full w-full bg-gray-700 p-4">
         <h1 className="text-2xl font-bold px-6 pt-4 pb-2">Drop me a Message</h1>
         <h1 className="text-lg font-bold px-6 pb-2">
-          I'd like to hear from you!
+          I&apos;d like to hear from you!
         </h1>
         <div className="">
         <label className="text-sm px-6 font-semibold pt-6">Email</label>

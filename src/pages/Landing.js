@@ -1,3 +1,5 @@
+
+
 export default function Landing() {
   return (
     <section className="flex sm:flex-row md:flex-col lg:flex-row flex-col lg:items-center justify-between w-full text-start h-screen bg-black">
@@ -12,10 +14,7 @@ export default function Landing() {
           using code.
         </h1>
         <div className="flex items-center space-x-2">
-          <img
-            src="https://pbs.twimg.com/profile_images/1611048159421075456/_hJhdfJa_400x400.jpg"
-            className="rounded-full h-16 w-16 mr-2"
-          />
+        
           <button
             id="Contact"
             className="p-4 bg-gray-800/60 border border-gray-600 font-semibold text-lg rounded-lg my-6"
