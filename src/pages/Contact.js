@@ -4,7 +4,7 @@ export default function Contact() {
       id="Contact"
       className="flex flex-wrap w-full h-full bg-black p-8"
     >
-      <div classname=""><h1 className="text-2xl font-bold  pt-4 pb-2">Get in touch</h1></div>
+      <div className=""><h1 className="text-2xl font-bold  pt-4 pb-2">Get in touch</h1></div>
       <div className="flex flex-col rounded-lg border h-full w-full bg-gray-700 p-4">
         <h1 className="text-2xl font-bold px-6 pt-4 pb-2">Drop me a Message</h1>
         <h1 className="text-lg font-bold px-6 pb-2">

@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section className="flex flex-col w-full bg-black p-12">
      
-        <div classname="">
+        <div className="">
           <h1 className="font-semibold pb-4 text-lg">
             As a self-taught developer, I have gained a strong understanding of
             various programming languages and technologies through hands-on
@@ -33,7 +33,7 @@ export default function About() {
             Twitter
           </a>
         </div>
-        <div classname="pt-2">
+        <div className="pt-2">
           <div className="text-lg font-semibold flex space-x-4 md:justify-center lg:justify-center overflow-auto whitespace-nowrap scrollbar-hide">
             <h1 className="rounded-lg border-gray-700 border p-4">React</h1>
           </div>
