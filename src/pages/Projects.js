@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Projectdata } from "../data/ProjectData";
+import Projectdata from "../data/ProjectData";
 
 export default function Projects() {
   return (
