@@ -1,5 +1,3 @@
-
-
 export default function Landing() {
   return (
     <section className="flex sm:flex-row md:flex-col lg:flex-row flex-col lg:items-center justify-between w-full text-start h-screen bg-black">
