@@ -6,6 +6,7 @@ export const tech = [
   "Tailwind",
   "Next.js",
   "Prisma",
+  "Git",
   "Axios",
   "Node.js",
   "C++",
