@@ -1,9 +1,10 @@
 import Image from "next/image";
+import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 export default function Landing() {
   return (
     <section className="flex sm:flex-row md:flex-col lg:flex-row flex-col lg:items-center justify-between w-full text-start h-screen bg-black">
-      <div className="p-12 lg:h-1/2 lg:w-1/2 items-center">
+      <div className="p-6 lg:h-1/2 lg:w-1/2 items-center">
         <h1 className="text-5xl font-semibold pb-4">Brian Mulinge.</h1>
         <h1 className="text-3xl font-semibold pb-4">
           Self Taught Software Developer
@@ -23,14 +24,19 @@ export default function Landing() {
             ></Image>
             <button
               id="Contact"
-              className="p-4 bg-gray-800/60 border border-gray-600 font-semibold text-lg rounded-lg my-6"
+              className="p-4 bg-gradient-to-r from-gray-800 to-black border border-gray-600 font-semibold text-lg rounded-lg my-6"
             >
               Contact Me
             </button>
           </div>
+          <div className="flex space-x-6 items-center justify-center font-semibold text-lg">
+            <FaGithub className="h-6 w-6" />
+            <FaTwitter className="h-6 w-6" />
+            <FaLinkedinIn className="h-6 w-6" />
+          </div>
         </div>
       </div>
-      <div className="p-4 border border-gray-600 bg-gray-800 rounded-lg mx-12 py-6 lg:w-1/2 h-full lg:h-1/2 mb-4">
+      <div className="p-4 border border-gray-600 bg-gradient-to-r from-gray-800 to-black rounded-lg mx-6 py-6 lg:w-1/2 h-full lg:h-1/2 mb-4">
         <h1>In Development...</h1>
       </div>
     </section>

@@ -36,9 +36,12 @@ export default function About() {
         </a>
       </div>
       <div className="">
-        <div className="text-lg font-semibold flex space-x-4 md:justify-center lg:justify-center overflow-auto whitespace-nowrap scrollbar-hide">
+        <div className="text-lg font-semibold flex space-x-4 md:justify-center lg:justify-center overflow-auto whitespace-nowrap scrollbar-hide ">
           {tech.map((tech, index) => (
-            <h1 key={index} className="rounded-lg border-gray-700 border p-4">
+            <h1
+              key={index}
+              className="rounded-lg border-gray-700 border p-4 bg-gradient-to-r from-gray-800 to-black"
+            >
               {tech}
             </h1>
           ))}
