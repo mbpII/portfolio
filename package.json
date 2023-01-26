@@ -13,6 +13,7 @@
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.4",
     "feather-icons": "^4.29.0",
+    "framer-motion": "^8.5.3",
     "next": "13.1.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",

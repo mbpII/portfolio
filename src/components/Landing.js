@@ -22,17 +22,44 @@ export default function Landing() {
               width={100}
               height={100}
             ></Image>
-            <button
+            <a
+              href="mailto:brianmulinge45@gmail.com"
               id="Contact"
-              className="p-4 bg-gradient-to-r from-gray-800 to-black border border-gray-600 font-semibold text-lg rounded-lg my-6"
+              className="p-4 bg-gradient-to-r from-gray-800
+              to-black border border-gray-600 font-semibold text-lg rounded-lg
+              my-6"
             >
               Contact Me
-            </button>
+            </a>
           </div>
           <div className="flex space-x-6 items-center justify-center font-semibold text-lg">
-            <FaGithub className="h-6 w-6" />
-            <FaTwitter className="h-6 w-6" />
-            <FaLinkedinIn className="h-6 w-6" />
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/Brianmulinge"
+              className="flex"
+            >
+              <FaGithub className="h-6 w-6 mr-1.5" />
+              Github
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://linkedin.com/in/brianmulinge"
+              className="flex"
+            >
+              <FaLinkedinIn className="h-6 w-6 mr-1.5" />
+              LinkedIn
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/brianmulinge_"
+              className="flex"
+            >
+              <FaTwitter className="h-6 w-6 mr-1.5" />
+              Twitter
+            </a>
           </div>
         </div>
       </div>

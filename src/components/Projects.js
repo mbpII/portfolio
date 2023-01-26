@@ -3,7 +3,7 @@ import { Projectdata } from "../data/Projectdata";
 
 export default function Projects() {
   return (
-    <section className="flex flex-row overflow-x-auto w-full h-1/2 bg-black p-6 space-x-4 whitespace-nowrap lg:justify-center scrollbar-hide">
+    <section className="flex flex-row overflow-x-auto w-full h-1/2 bg-black px-6 py-2 space-x-4 whitespace-nowrap lg:justify-center scrollbar-hide">
       {Projectdata.map((project, index) => (
         <div
           key={index}
