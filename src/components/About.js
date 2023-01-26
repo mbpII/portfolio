@@ -1,4 +1,4 @@
-import { tech } from "../data/tech";
+import { tech } from "../data/Tech";
 
 export default function About() {
   return (
