@@ -1,9 +1,22 @@
 import Image from "next/image";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { useInView } from "framer-motion";
+import { useRef } from "react";
 
 export default function Landing() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
   return (
-    <section className="flex sm:flex-row md:flex-col lg:flex-row flex-col lg:items-center justify-between w-full text-start h-screen bg-black">
+    <section
+      ref={ref}
+      style={{
+        transform: isInView ? "none" : "translateX(-200px)",
+        opacity: isInView ? 1 : 0,
+        transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+      }}
+      className="flex sm:flex-row md:flex-col lg:flex-row flex-col lg:items-center justify-between w-full text-start h-screen bg-black"
+    >
       <div className="p-6 lg:h-1/2 lg:w-1/2 items-center">
         <h1 className="text-5xl font-semibold pb-4">Brian Mulinge.</h1>
         <h1 className="text-3xl font-semibold pb-4">
@@ -29,7 +42,7 @@ export default function Landing() {
               to-black border border-gray-600 font-semibold text-lg rounded-lg
               my-6"
             >
-              Contact Me
+              Say Hi
             </a>
           </div>
           <div className="flex space-x-6 items-center justify-center font-semibold text-lg">
