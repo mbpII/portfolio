@@ -12,7 +12,9 @@ function Project() {
             <Image src={project.picture} alt={project.title} />
             <div className="p-6">
               <h2 className="text-xl font-bold mb-2">{project.title}</h2>
-              <p className="mb-4">{project.description}</p>
+              <p className="mb-4 font-semibold text-base">
+                {project.description}
+              </p>
               <div className="flex items-center">
                 <a
                   href={project.githublink}
