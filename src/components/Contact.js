@@ -13,6 +13,7 @@ function Contact() {
         <h1 className="flex items-center justify-center font-bold p-4 rounded-lg border mt-4">
           Contact Me
           <AiOutlineArrowRight />
+
         </h1>
       </div>
     </section>

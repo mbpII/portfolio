@@ -25,6 +25,5 @@ function Landing() {
       </div>
     </section>
   );
-}
-
+  }
 export default Landing;

@@ -25,6 +25,7 @@ function About() {
           with APIs and databases. Continuously seeking new challenges to
           improve skills.
         </h1>
+
       </div>
     </section>
   );
