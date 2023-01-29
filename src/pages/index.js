@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-black text-white">
       <Head>
         <title>Brianmulinge</title>
         <meta name="description" content="Brian Mulinge" />
@@ -19,6 +19,6 @@ export default function Home() {
       <About />
       <Project />
       <Contact />
-    </>
+    </div>
   );
 }

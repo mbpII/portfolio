@@ -6,7 +6,7 @@ import { OrbitControls } from "@react-three/drei";
 function About() {
   return (
     <section className="flex h-screen w-full flex-col items-center justify-center lg:flex-row p-6">
-      <div className="h-full md:h-2/4 lg:h-full w-full bg-white">
+      <div className="h-full md:h-2/4 lg:h-full w-full ">
         <Canvas>
           <OrbitControls enableZoom={false} />
           <ambientLight intensity={0.5} />
@@ -25,7 +25,6 @@ function About() {
           with APIs and databases. Continuously seeking new challenges to
           improve skills.
         </h1>
-
       </div>
     </section>
   );
