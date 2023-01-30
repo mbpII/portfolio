@@ -4,9 +4,9 @@ import Projectdata from "../data/Projectdata";
 
 function Project() {
   return (
-    <section className="container mx-auto py-12 p-4 items-center">
+    <section className="container  py-12 p-4 items-center justify-items-center">
       <h1 className="text-3xl font-bold mb-6 text-center">Projects</h1>
-      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 ">
         {Projectdata.map((project, index) => (
           <div key={index} className="border rounded-lg overflow-hidden">
             <Image src={project.picture} alt={project.title} />
