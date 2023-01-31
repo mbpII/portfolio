@@ -6,9 +6,6 @@ import { OrbitControls } from "@react-three/drei";
 function About() {
   return (
     <section className="flex h-full w-full flex-col items-center justify-center lg:flex-row p-6">
-      <h1 className="font-semibold text-center text-3xl md:text-4xl pt-4">
-        The technologies I use
-      </h1>
       <div className="h-96 md:h-2/4 lg:h-full w-full ">
         <Canvas>
           <OrbitControls enableZoom={false} />
@@ -18,6 +15,9 @@ function About() {
         </Canvas>
       </div>
       <div className="h-full w-full lg:p-4">
+        <h1 className="font-semibold  text-3xl md:text-4xl pt-4">
+          The technologies I use
+        </h1>
         <h1 className="font-semibold text-lg md:text-xl py-4">
           As a self-taught developer, I have gained a strong understanding of
           various programming languages and technologies through hands-on
