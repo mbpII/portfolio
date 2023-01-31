@@ -18,7 +18,7 @@ export default function Landing() {
       </div>
       <div className="sm:w-1/2 flex flex-col items-center justify-center p-6">
         <Image
-          className="rounded-full h-64 sm:h-auto w-64 sm:w-auto object-cover"
+          className="rounded-full h-64 sm:h-auto w-64 sm:w-auto object-cover animate-blob-animation"
           priority
           alt="profile picture"
           src={pic}

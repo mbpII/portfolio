@@ -5,15 +5,16 @@ import { OrbitControls } from "@react-three/drei";
 
 function About() {
   return (
-    <section className="flex h-full w-full flex-col items-center justify-center lg:flex-row p-6">
-      <div className="h-96 md:h-2/4 lg:h-full w-full ">
-        <Canvas>
+    <section className="flex h-screen w-full flex-col items-center justify-center lg:flex-row p-6">
+      <div className="h-full md:h-2/4 lg:h-full w-full">
+        <Canvas style={{ width: "100%", height: "100%" }}>
           <OrbitControls enableZoom={false} />
           <ambientLight intensity={0.5} />
           <directionalLight position={[-2, 5, 2]} intensity={1} />
           <Animation />
         </Canvas>
       </div>
+
       <div className="h-full w-full lg:p-4">
         <h1 className="font-semibold  text-3xl md:text-4xl pt-4">
           The technologies I use
