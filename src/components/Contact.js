@@ -9,13 +9,16 @@ function Contact() {
         <h1 className="text-base font-semibold pt-4">
           Drop me a Message I&apos;d like to hear from you!
         </h1>
-        <h1
+
+        <a
           href="mailto:brianmulinge45@gmail.com"
-          className="flex items-center justify-center font-bold p-4 rounded-lg border mt-4"
+          target="_blank"
+          rel="noreferrer"
+          className="flex items-center justify-center font-bold px-6 py-4 rounded-lg border mt-4"
         >
           Contact Me
           <AiOutlineArrowRight />
-        </h1>
+        </a>
       </div>
     </section>
   );

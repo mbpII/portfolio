@@ -15,7 +15,7 @@ function About() {
         </Canvas>
       </div>
 
-      <div className="h-full w-full lg:p-4">
+      <div className="h-full w-full lg:p-4 flex flex-col justify-center">
         <h1 className="font-semibold  text-3xl md:text-4xl pt-4">
           The technologies I use
         </h1>

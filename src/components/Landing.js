@@ -3,7 +3,7 @@ import pic from "../images/me.jpg";
 
 export default function Landing() {
   return (
-    <section className="flex flex-col items-center pt-10 pb-6 h-auto w-full sm:h-auto sm:pt-16 sm:flex-row">
+    <section className="flex flex-col items-center pt-10 pb-6 h-screen w-full sm:h-auto sm:pt-16 sm:flex-row">
       <div className="sm:w-1/2 sm:text-left p-6 pl-6 sm:pl-10">
         <h1 className="font-semibold text-base sm:text-2xl text-start">
           Hi There I&apos;m ...
@@ -16,14 +16,14 @@ export default function Landing() {
           using code.
         </h1>
       </div>
-      <div className="sm:w-1/2 flex flex-col items-center justify-center p-6">
+      <div className="sm:w-1/2 flex flex-col items-center justify-center p-6 ">
         <Image
-          className="rounded-full h-64 sm:h-auto w-64 sm:w-auto object-cover animate-blob-animation"
+          className="rounded-full h-64 sm:h-auto w-64 sm:w-auto object-cover"
           priority
           alt="profile picture"
           src={pic}
-          width={800}
-          height={800}
+          width={600}
+          height={600}
         />
       </div>
     </section>
