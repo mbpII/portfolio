@@ -7,6 +7,7 @@ export const tech = [
   "Next.js",
   "Prisma",
   "Git",
+  "Trpc",
   "Axios",
   "Node.js",
   "C++",

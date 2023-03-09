@@ -5,11 +5,11 @@ export default function Project() {
   return (
     <section className="p-6 h-full w-full">
       <h1 className="text-4xl font-bold text-center pb-6">Projects</h1>
-      <div className="grid justify-items-center gap-4 auto-cols-auto md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 p-2">
+      <div className="grid justify-items-center gap-4 auto-cols-auto md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 p-2">
         {Projectdata.map((project, index) => (
           <div key={index} className="border rounded-lg">
             <Image
-              className="rounded-lg"
+              className="rounded-t-lg"
               src={project.picture}
               alt={project.title}
             />

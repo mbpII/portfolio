@@ -3,7 +3,7 @@ import About from "../components/About";
 import Project from "../components/Project";
 import Contact from "../components/Contact";
 import Landing from "../components/Landing";
-import Navbar from "@/components/Navbar";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
