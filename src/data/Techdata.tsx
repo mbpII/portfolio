@@ -1,10 +1,14 @@
-const techData = [
-  { name: "JavaScript", color: "yellow" },
-  { name: "React", color: "blue" },
-  { name: "Node.js", color: "green" },
-  { name: "Python", color: "purple" },
-  { name: "Java", color: "orange" },
-  { name: "C#", color: "pink" },
+export const techdata = [
+  "React",
+  "MySQL",
+  "JavaScript",
+  "TypeScript",
+  "Tailwind",
+  "Next.js",
+  "Prisma",
+  "Git",
+  "Trpc",
+  "Axios",
+  "Node.js",
+  "C++",
 ];
-
-export default techData;
