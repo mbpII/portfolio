@@ -6,18 +6,16 @@ import Contact from "../components/Contact";
 
 export default function Home() {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white w-screen min-h-screen">
       <Head>
         <title>Brianmulinge</title>
         <meta name="description" content="My Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="h-full w-full">
+      <main className="">
         <Landing />
         <About />
-        <Project />
-        <Contact />
       </main>
     </div>
   );
