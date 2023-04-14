@@ -16,6 +16,8 @@ export default function Home() {
       <main className="">
         <Landing />
         <About />
+        <Project />
+        <Contact/>
       </main>
     </div>
   );

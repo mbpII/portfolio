@@ -1,7 +1,7 @@
-import portfolio from "../images/portfolio.png";
-import notelist from "../images/notelist.png";
-import securekey from "../images/securekey.png";
-import toonflix from "../images/toonflix.png";
+import portfolio from "../images/pic.jpg";
+import notelist from "../images/pic.jpg";
+import securekey from "../images/pic.jpg";
+import toonflix from "../images/pic.jpg";
 
 const Projectdata = [
   {
