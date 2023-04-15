@@ -4,7 +4,7 @@ import Projectdata from "../data/Projectdata";
 export default function Project() {
     return (
         <section className="container mx-auto py-12 p-4 items-center">
-        <h1 className="text-3xl font-bold mb-6 text-center">Projects</h1>
+        <h1 className="text-4xl font-bold mb-6 text-center">Projects</h1>
         <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {Projectdata.map((project, index) => (
             <div key={index} className="border rounded-lg overflow-hidden">

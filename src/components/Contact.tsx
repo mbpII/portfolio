@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Contact() {
     return (
         <section className="flex  w-full flex-col items-center justify-center md:flex-row p-6 text-center">
@@ -8,7 +10,9 @@ export default function Contact() {
 
           </h1>
           <h1 className="flex items-center justify-center font-bold p-4 rounded-lg border mt-4">
+            <Link href="mailto:brianjaden45@gmail.com">
             Contact Me
+            </Link>
           </h1>
         </div>
       </section>

@@ -6,7 +6,8 @@ import Contact from "../components/Contact";
 
 export default function Home() {
   return (
-    <div className="bg-black text-white w-screen min-h-screen">
+    <div className="bg-black text-white w-full min-h-screen">
+   
       <Head>
         <title>Brianmulinge</title>
         <meta name="description" content="My Portfolio" />
