@@ -8,8 +8,6 @@ Welcome to the repository for my personal web developer portfolio, showcasing my
 - [Getting Started](#getting-started)
 - [Customization](#customization)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -55,11 +53,11 @@ Open your browser and navigate to http://localhost:3000 to view the portfolio si
 # Customization
 To customize this portfolio for your own personal use, follow these steps:
 
-Update the public/data.json file with your personal information, including your name, email address, social media links, and profile picture.
+Update the src/components/Landing.tsx file with your personal information, including your name, email address, social media links, and profile picture.
 
-Add your projects to the public/projects.json file. Include relevant details such as project name, description, live URL, and repository URL.
+Add your projects to the src/data/Projectdata.tsx file. Include relevant details such as project name, description, live URL, and repository URL.
 
-Replace the images in the public/images/projects folder with your own project screenshots.
+Replace the images in the src/images/folder with your own project screenshots.
 
 Customize the Tailwind CSS configuration file tailwind.config.js to match your preferred color scheme and design.
 
@@ -69,12 +67,11 @@ Modify any other components or styles as desired.
 To deploy your portfolio site to a hosting provider, follow their specific instructions. For a popular option like Vercel, you can deploy your site with the following steps:
 
 Install the Vercel CLI:
+```bash
 npm install -g vercel
-
+```
 Run the Vercel deployment command:
+```bash
 vercel
-
+```
 Follow the prompts to complete the deployment process.
-
-# License
-This project is licensed under the MIT License. See the LICENSE file for more information.
