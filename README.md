@@ -34,17 +34,18 @@ Ensure that you have the following installed on your local machine:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/personal-web-developer-portfolio.git
+git clone git@github.com:Brianmulinge/portfolio.git
 ```
 
-Change to the project directory:
+2. Change to the project directory:
+```bash
 cd portfolio
-
-Install the dependencies:
+```
+3. Install the dependencies:
 ```bash
 npm install
 ```
-Run the development server:
+4. Run the development server:
 ```bash
 npm run dev
 ```
