@@ -28,7 +28,7 @@ export default function Landing() {
         </div>
         <div className="flex flex-col space-y-2 md:space-y-4 max-w-xl md:pl-4">
           <h1 className="font-semibold text-xl pt-2">Hi There I&apos;m</h1>
-          <h1 className="text-4xl font-semibold whitespace-nowrap md:text-5xl lg:text-6xl ">
+          <h1 className="text-4xl font-semibold whitespace-nowrap md:text-5xl lg:text-6xl">
             Brian Mulinge
           </h1>
           <p className="text-xl font-semibold">

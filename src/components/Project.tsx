@@ -17,7 +17,7 @@ export default function Project() {
                   href={project.projectlink}
                   target="_blank"
                   rel="noreferrer"
-                  className="border font-bold py-2 px-4 rounded  whitespace-nowrap"
+                  className="border font-bold py-2 px-4 rounded-lg  whitespace-nowrap"
                 >
                   Visit Project
                 </a>
