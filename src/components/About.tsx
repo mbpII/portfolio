@@ -1,24 +1,24 @@
-import Image from "next/image";
 import me from "../images/me.jpg";
+import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="">
-      <h1 className="text-center font-semibold text-4xl py-8">About Me</h1>
-      <div className="container mx-auto md:px-8 flex p-4 flex-col lg:justify-center items-center md:grid md:grid-cols-2 md:gap-8 lg:mt-10 ">
-        <div className="w-full md:w-auto lg:w-auto flex justify-center flex-col max-w-xl">
-          <p className="pb-4">
+    <section className="p-4">
+      <h1 className="text-center font-semibold text-4xl py-4">About Me</h1>
+      <div className="flex flex-col md:flex-row py-4 justify-around items-center">
+        <div className="flex flex-col space-y-2 md:space-y-4 max-w-lg md:pr-4">
+          <p className="pb-4 max-w-4xl font-semibold md:text-lg lg:text-xl ">
             As a self-taught developer proficient in multiple languages, I excel
             in problem-solving, quickly grasp new concepts, and have experience
             building web applications, APIs, and databases. I am dedicated to
             continuous skill improvement and embracing new challenges.
           </p>
         </div>
-        <div className=" flex flex-col space-y-4 max-w-xl">
+        <div className="">
           <Image
             src={me}
-            className="w-full h-full object-cover max-w-xl lg:max-w-lg rounded"
-            alt="my_picture"
+            className="w-full h-full object-cover max-w-3xl lg:max-w-lg rounded"
+            alt="my_tech_stack"
             priority
           />
         </div>
