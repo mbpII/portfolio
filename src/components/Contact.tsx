@@ -21,7 +21,7 @@ export default function Contact() {
           <Image
             src={email}
             className="w-full h-full object-cover max-w-md lg:max-w-lg rounded"
-            alt="my_tech_stack"
+            alt="contact_me"
             priority
           />
         </div>
