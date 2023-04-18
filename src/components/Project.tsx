@@ -7,7 +7,7 @@ export default function Project() {
       <h1 className="text-4xl font-bold mb-6 text-center">Projects</h1>
       <div className="grid gap-4 grid-col md:grid-cols-2 lg:grid-cols-3">
         {Projectdata.map((project, index) => (
-          <div key={index} className="border rounded-lg overflow-hidden">
+          <div key={index} className="bg-neutral-700 rounded-lg overflow-hidden">
             <Image src={project.picture} alt={project.title} priority />
             <div className="p-6">
               <h2 className="text-xl font-bold mb-2">{project.title}</h2>

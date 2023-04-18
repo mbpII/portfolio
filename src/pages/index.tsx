@@ -81,7 +81,7 @@ export default function Home() {
   const contactRef = useRef<HTMLDivElement | null>(null);
   const contactInView = useInView(contactRef);
   return (
-    <div className="bg-black text-white overflow-hidden">
+    <div className="bg-stone-800 text-white overflow-hidden">
       <Head>
         <title>Brianmulinge</title>
         <meta name="description" content="My Portfolio" />
