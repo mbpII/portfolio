@@ -1,17 +1,8 @@
-import portfolio from "../images/portfolio.png";
 import notelist from "../images/notelist.png";
 import securekey from "../images/securekey.png";
 import toonflix from "../images/toonflix.png";
 
 const Projectdata = [
-  {
-    picture: portfolio,
-    title: "My Portfolio",
-    description:
-      "I crafted this developer portfolio using Next.js and Tailwind CSS to showcase my skills, experience, and projects. Framer Motion enhances interactivity with smooth animations, while Vercel hosts the site.",
-    projectlink: "https://www.brianmulinge.com",
-    githublink: "https://github.com/Brianmulinge/portfolio",
-  },
   {
     picture: notelist,
     title: "Notelist",

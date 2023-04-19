@@ -3,17 +3,32 @@ import Link from "next/link";
 import me from "../images/me.jpg";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
+
 export default function Landing() {
+
+
   return (
     <section className="p-4">
       <div className="flex space-x-6 md:pl-6 justify-center lg:justify-start">
-        <Link href="https://github.com/Brianmulinge">
+        <Link
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/Brianmulinge"
+        >
           <FaGithub className="text-4xl text-white" />
         </Link>
-        <Link href="https://linkedin.com/in/brianmulinge">
+        <Link
+          target="_blank"
+          rel="noreferrer"
+          href="https://linkedin.com/in/brianmulinge"
+        >
           <FaLinkedin className="text-4xl text-white" />
         </Link>
-        <Link href="https://twitter.com/brianmulinge_">
+        <Link
+          target="_blank"
+          rel="noreferrer"
+          href="https://twitter.com/brianmulinge_"
+        >
           <FaTwitter className="text-4xl text-white" />
         </Link>
       </div>
@@ -35,10 +50,11 @@ export default function Landing() {
             I have a passion for problem-solving and implementing new concepts
             using code.
           </p>
-          <div className="">
-          <button className="bg-white text-black font-bold py-2 px-4 rounded whitespace-nowrap">
-               Projects
-          </button>
+          <div className="space-x-2">
+            <button className="bg-neutral-700 text-white font-bold py-2 px-4 rounded whitespace-nowrap">
+              Projects
+            </button>
+         
           </div>
         </div>
       </div>
