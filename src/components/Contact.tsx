@@ -14,21 +14,14 @@ export default function Contact() {
             Drop me a Message I&apos;d like to hear from you!
           </h1>
           <div className="">
-            <Link href="mailto:brianjaden45@gmail.com">
+            <Link href="mailto:mattparksII@outlook.com">
               <button className="flex items-center justify-center font-bold px-6 py-3 rounded-lg border mt-4 md:text-lg lg:text-2xl">
                 Contact Me
               </button>
             </Link>
           </div>
         </div>
-        <div className="">
-          <Image
-            src={email}
-            className="w-full h-full object-cover max-w-md lg:max-w-lg rounded"
-            alt="contact_me"
-            priority
-          />
-        </div>
+        <div className=""></div>
       </div>
     </section>
   );
