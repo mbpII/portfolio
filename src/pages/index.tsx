@@ -80,7 +80,7 @@ export default function Home() {
   return (
     <div className="bg-slate-900 text-white overflow-hidden">
       <Head>
-        <title>Brianmulinge</title>
+        <title>Matthew Parks</title>
         <meta name="description" content="My Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -115,9 +115,7 @@ export default function Home() {
           variants={fadeInLeft}
           initial={contactInView ? "animate" : "initial"}
           animate={contactInView ? "animate" : "initial"}
-        >
-          <Contact />
-        </motion.div>
+        ></motion.div>
       </main>
     </div>
   );

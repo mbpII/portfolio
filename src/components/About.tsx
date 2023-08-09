@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function About() {
   return (
     <section className="p-4">
-      <h1 className="text-center font-semibold text-4xl py-4">About Me</h1>
       <div className="flex flex-col md:flex-row py-4 justify-around items-center">
         <div className="flex flex-col space-y-2 md:space-y-4 max-w-lg md:pr-4">
+          <h1 className="text-center font-semibold text-4xl pb-4">About Me</h1>
           <p className="pb-4 max-w-4xl font-semibold md:text-lg lg:text-xl ">
             I'm a developer who has taught myself a variety of programming
             languages. My strengths include rapid learning of fresh ideas,
