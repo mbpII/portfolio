@@ -8,10 +8,10 @@ export default function About() {
         <div className="flex flex-col space-y-2 md:space-y-4 max-w-lg md:pr-4">
           <h1 className="text-center font-semibold text-4xl pb-4">About Me</h1>
           <p className="pb-4 max-w-4xl font-semibold md:text-lg lg:text-xl ">
-            I'm a developer who has taught myself a variety of programming
+            I&apos;m a developer who has taught myself a variety of programming
             languages. My strengths include rapid learning of fresh ideas,
             excelling in solving problems, and a background in constructing web
-            applications, APIs, and databases. I'm committed to constantly
+            applications, APIs, and databases. I&apos;m committed to constantly
             enhancing my abilities and taking on new challenges.
           </p>
         </div>

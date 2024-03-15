@@ -22,8 +22,7 @@ const Projectdata = [
     title: "Strike",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate deleniti quod culpa molestiae eveniet unde at iure. Ab maiores neque magni quis, est aut voluptate facilis expedita laborum fugiat rem.",
-    projectlink: "https://toonflix.vercel.app",
-    githublink: "https://example.com",
+    projectlink: "https://example.com",
   },
 ];
 export default Projectdata;
