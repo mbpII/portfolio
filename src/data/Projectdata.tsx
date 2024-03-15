@@ -15,8 +15,7 @@ const Projectdata = [
     title: "Concrete goodies",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate deleniti quod culpa molestiae eveniet unde at iure. Ab maiores neque magni quis, est aut voluptate facilis expedita laborum fugiat rem.",
-    projectlink: "https://securekey.vercel.app",
-    githublink: "https://github.com/Brianmulinge/securekey",
+    projectlink: "https://example.com",
   },
   {
     picture: toonflix,
@@ -24,7 +23,7 @@ const Projectdata = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate deleniti quod culpa molestiae eveniet unde at iure. Ab maiores neque magni quis, est aut voluptate facilis expedita laborum fugiat rem.",
     projectlink: "https://toonflix.vercel.app",
-    githublink: "https://github.com/Brianmulinge/toonflix",
+    githublink: "https://example.com",
   },
 ];
 export default Projectdata;
