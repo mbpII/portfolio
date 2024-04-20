@@ -9,7 +9,7 @@ const Projectdata = [
   {
     title: "Concrete goodies",
     description: "A website created to host and store you taste in clothing",
-    projectlink: "https://vestis.vercel.com",
+    projectlink: "https://vestis.vercel.app",
   },
   {
     title: "Strike",
