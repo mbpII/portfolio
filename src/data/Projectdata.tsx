@@ -1,7 +1,3 @@
-import notelist from "../images/notelist.png";
-import securekey from "../images/securekey.png";
-import toonflix from "../images/toonflix.png";
-
 const Projectdata = [
   {
     // picture: kickinbunts,
@@ -11,14 +7,11 @@ const Projectdata = [
     projectlink: "http://kickinbundts.com/",
   },
   {
-    picture: securekey,
     title: "Concrete goodies",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate deleniti quod culpa molestiae eveniet unde at iure. Ab maiores neque magni quis, est aut voluptate facilis expedita laborum fugiat rem.",
-    projectlink: "https://example.com",
+    description: "A website created to host and store you taste in clothing",
+    projectlink: "https://vestis.vercel.com",
   },
   {
-    picture: toonflix,
     title: "Strike",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate deleniti quod culpa molestiae eveniet unde at iure. Ab maiores neque magni quis, est aut voluptate facilis expedita laborum fugiat rem.",
