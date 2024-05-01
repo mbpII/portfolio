@@ -7,8 +7,9 @@ const Projectdata = [
     projectlink: "http://kickinbundts.com/",
   },
   {
-    title: "Concrete goodies",
-    description: "A website created to host and store you taste in clothing",
+    title: "Vestis",
+    description:
+      "A website created store clothing from brands you love. Built using vanilla js,",
     projectlink: "https://vestis.vercel.app",
   },
   {

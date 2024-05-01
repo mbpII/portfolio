@@ -23,13 +23,6 @@ export default function Landing() {
           >
             <FaLinkedin className="text-4xl text-white" />
           </Link>
-          <Link
-            target="_blank"
-            rel="noreferrer"
-            href="https://twitter.com/mbp_ii"
-          >
-            <FaTwitter className="text-4xl text-white" />
-          </Link>
         </div>
         <div className="flex justify-center">
           <Link href="mailto:mattparksII@outlook.com">
