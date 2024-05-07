@@ -9,14 +9,14 @@ const Projectdata = [
   {
     title: "Vestis",
     description:
-      "A website created store clothing from brands you love. Built using vanilla js,",
+      "A website created store clothing from brands you love. Built using vanilla js, CSS, HTML, and hosted with vercel",
     projectlink: "https://vestis.vercel.app",
   },
   {
-    title: "Strike",
+    title: "Under Construction",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate deleniti quod culpa molestiae eveniet unde at iure. Ab maiores neque magni quis, est aut voluptate facilis expedita laborum fugiat rem.",
-    projectlink: "https://example.com",
+      "This project is currently under construction. Stay tuned for updates!",
+    projectlink: "#",
   },
 ];
 export default Projectdata;

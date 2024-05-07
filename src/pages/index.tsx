@@ -64,7 +64,6 @@ const fadeInRight = {
     },
   },
 };
-
 export default function Home() {
   const landRef = useRef<HTMLDivElement | null>(null);
   const landInView = useInView(landRef);
@@ -77,8 +76,9 @@ export default function Home() {
 
   const contactRef = useRef<HTMLDivElement | null>(null);
   const contactInView = useInView(contactRef);
+
   return (
-    <div className="bg-slate-900 text-white overflow-hidden">
+    <div className="bg-slate-900 text-white overflow-hidden min-h-screen w-screen">
       <Head>
         <title>Matthew Parks</title>
         <meta name="description" content="My Portfolio" />
