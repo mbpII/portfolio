@@ -1,4 +1,5 @@
-import matt from "../images/matt.jpeg";
+import Link from "next/link";
+import matt from "../images/mattart.jpeg";
 import Image from "next/image";
 
 export default function About() {
@@ -14,6 +15,11 @@ export default function About() {
             applications, APIs, and databases. I&apos;m committed to constantly
             enhancing my abilities and taking on new challenges.
           </p>
+          <Link href="https://utfs.io/f/2eb7698e-aca0-45ae-864e-5be27d197f06-fgc05v.pdf">
+            <button className="flex items-center justify-center font-bold px-6 py-3 rounded-lg border mt-4 md:text-lg lg:text-2xl">
+              My Resume
+            </button>
+          </Link>
         </div>
         <div className="">
           <Image
