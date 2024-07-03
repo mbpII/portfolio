@@ -10,7 +10,7 @@ const Projectdata = [
     title: "Vestis",
     description:
       "A website created store clothing from brands you love. Built using vanilla JavaScript, CSS, HTML, and hosted with vercel",
-    projectlink: "https://vestis.vercel.app",
+    projectlink: "https://vestis-mbpii.vercel.app",
   },
   {
     title: "Under Construction",
